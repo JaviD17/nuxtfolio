@@ -22,7 +22,7 @@
           tabindex="0"
           class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li><a>Home</a></li>
+          <li><NuxtLink>Home</NuxtLink></li>
           <li tabindex="0">
             <a class="justify-between">
               Portfolio
@@ -62,13 +62,27 @@
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal p-0">
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Skills</a></li>
-        <li><a>Education</a></li>
-        <li><a>Work</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>Contact</a></li>
+        <div class="divider divider-horizontal"></div>
+        <li><NuxtLink to="/">Home</NuxtLink></li>
+        <div class="divider divider-horizontal"></div>
+
+        <li><NuxtLink to="/about">About</NuxtLink></li>
+        <div class="divider divider-horizontal"></div>
+
+        <li><NuxtLink to="/skills">Skills</NuxtLink></li>
+        <div class="divider divider-horizontal"></div>
+
+        <li><NuxtLink to="/education">Education</NuxtLink></li>
+        <div class="divider divider-horizontal"></div>
+
+        <li><NuxtLink to="/work">Work</NuxtLink></li>
+        <div class="divider divider-horizontal"></div>
+
+        <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
+        <div class="divider divider-horizontal"></div>
+
+        <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+        <div class="divider divider-horizontal"></div>
       </ul>
     </div>
     <div class="navbar-end">
