@@ -4,7 +4,7 @@
       <div class="hero-content flex-col lg:flex-row-reverse">
         <div class="avatar">
           <div class="w-48 lg:w-96 mask mask-hexagon">
-            <img src="/assets/images/profile.jpg" />
+            <img src="./assets/images/profile.jpg" />
           </div>
         </div>
         <!-- Container next to mask-hexagon -->

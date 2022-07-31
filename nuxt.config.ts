@@ -10,9 +10,9 @@ export default defineNuxtConfig({
     build: {
       rollupOptions: {
         external: [
-          "/assets/images/Nuxtfolio.png",
-          "/assets/images/profile.jpg",
-          "/assets/images/Arrive.png",
+          "./assets/images/Nuxtfolio.png",
+          "./assets/images/profile.jpg",
+          "./assets/images/Arrive.png",
         ],
       },
     },
