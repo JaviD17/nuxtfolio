@@ -6,4 +6,11 @@ export default defineNuxtConfig({
     shim: false,
   },
   modules: ["@nuxtjs/tailwindcss"],
+  vite: {
+    build: {
+      rollupOptions: {
+        external: ["/images/Nuxtfolio.png"],
+      },
+    },
+  },
 });
