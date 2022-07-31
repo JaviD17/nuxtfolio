@@ -33,12 +33,6 @@
 </template>
 
 <style>
-.name {
-  @apply text-primary;
-}
-.skills {
-  @apply text-accent;
-}
 .skill-item {
   margin-top: 10px;
 }
