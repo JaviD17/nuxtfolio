@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 btn-group">
+  <div class="btn-group">
     <a
       href="https://github.com/JaviD17"
       class="btn btn-lg btn-square btn-ghost"
