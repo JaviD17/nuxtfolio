@@ -9,7 +9,11 @@ export default defineNuxtConfig({
   vite: {
     build: {
       rollupOptions: {
-        external: ["/images/Nuxtfolio.png"],
+        external: [
+          "/images/Nuxtfolio.png",
+          "/images/profile.jpg",
+          "/images/Arrive.png",
+        ],
       },
     },
   },
