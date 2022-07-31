@@ -11,7 +11,7 @@
       </div>
       <div class="card glass w-96 bg-base-100 shadow-xl mx-auto my-8">
         <figure class="px-10 pt-10">
-          <img src="assets/images/Arrive.png" alt="Shoes" class="rounded-xl" />
+          <img src="~/assets/images/Arrive.png" alt="Shoes" class="rounded-xl" />
         </figure>
         <div class="card-body items-center text-center">
           <h2 class="card-title text-xl font-bold text-secondary">Role</h2>
