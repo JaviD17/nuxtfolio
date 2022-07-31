@@ -19,7 +19,7 @@
             <h2 class="card-title text-xl font-bold text-secondary">
               Deployment
             </h2>
-            <p>Netlify</p>
+            <p>Firebase</p>
             <div class="card-actions mt-2">
               <a
                 href="https://github.com/JaviD17/nuxtfolio"
