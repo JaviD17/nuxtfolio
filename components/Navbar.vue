@@ -22,28 +22,27 @@
           tabindex="0"
           class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li><NuxtLink>Home</NuxtLink></li>
-          <li tabindex="0">
-            <a class="justify-between">
-              Portfolio
-              <svg
-                class="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-                />
-              </svg>
-            </a>
-            <ul class="p-2">
-              <li><a>Github</a></li>
-              <li><a>LinkedIn</a></li>
-            </ul>
-          </li>
-          <li><a>About</a></li>
+          <div class="divider"></div>
+          <li><NuxtLink to="/">Home</NuxtLink></li>
+          <div class="divider"></div>
+
+          <li><NuxtLink to="/about">About</NuxtLink></li>
+          <div class="divider"></div>
+
+          <li><NuxtLink to="/skills">Skills</NuxtLink></li>
+          <div class="divider"></div>
+
+          <li><NuxtLink to="/education">Education</NuxtLink></li>
+          <div class="divider"></div>
+
+          <li><NuxtLink to="/work">Work</NuxtLink></li>
+          <div class="divider"></div>
+
+          <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
+          <div class="divider"></div>
+
+          <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+          <div class="divider"></div>
         </ul>
       </div>
       <a class="btn btn-ghost normal-case text-2xl font-bold name"
