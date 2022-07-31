@@ -15,7 +15,7 @@
             href="https://github.com/JaviD17/nuxtfolio"
             class="btn btn-outline btn-primary mt-4"
           >
-            Checkout My Repo
+            Checkout Repo
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="-2 -2 24 24"
